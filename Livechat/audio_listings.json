@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Audio Listing",
+    "description": "List of all audio that can be played on Livechat.",
+    "type": "object",
+    "properties": {
+        "Version": {
+            "description": "The version of file listing.",
+            "type": "integer"
+        },
+        "Listing": {
+            "description": "The array of file listings",
+            "type": "array",
+            "maxItems": 32
+        }
+    }
+}
